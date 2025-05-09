@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --swiper-navigation-color: rgb(30, 41, 59); /* Color personalizado */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 0px;
+}
+
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.leaflet-popup {
+    z-index: 10000 !important;
+  }
